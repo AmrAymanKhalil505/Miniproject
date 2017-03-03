@@ -6,7 +6,7 @@ var project_schema= new schema({
   CreateDate:{type:Date,default:Date.now},
   summary: String,
   detailed:String,
-  photo:[],
+  photo:String,
   links:String 
 });
 exports  = mongoose.model('project',project_schema);
