@@ -38,7 +38,7 @@ exports.reg_project= function(req,res)
       entry.belongeto=req.session.user.username;
       entry.summary=req.body.summary;
       entry.detailed=req.body.detailed;
-    //  entry.photo=req.body.photo;
+        entry.photo=req.body.photo;
       entry.links=req.body.links;
 
 
